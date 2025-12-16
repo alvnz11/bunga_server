@@ -1,0 +1,22 @@
+{
+  "svm": {
+    "train_accuracy": 0.9526315789473684,
+    "val_accuracy": 0.8742138364779874,
+    "best_params": {
+      "C": 50,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "best_cv_score": 0.8851851851851851
+  },
+  "knn": {
+    "train_accuracy": 1.0,
+    "val_accuracy": 0.7877358490566038,
+    "best_params": {
+      "metric": "manhattan",
+      "n_neighbors": 1,
+      "weights": "distance"
+    },
+    "best_cv_score": 0.8296296296296296
+  }
+}
